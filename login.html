@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<meta name="description" content="Pagina de Login">
+	<meta name="keywords" content="HTML,CSS,XHTML,JavaScript">
+	<meta name="author" content="Heitor">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="fcss/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fcss/homestyle.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-xl-9 mx-auto">
+				<div class="card card-signin flex-row my-5">
+					<div class="card-img-left d-none d-md-flex"></div>
+					<div class="card-body">
+						<h3 class="card-title text-center">Bem vindo ao FaciliData</h3>
+						<form class="form-signin">
+							<div class="form-label-group">
+								E-mail
+				                <input type="email" id="inputemail" class="form-control" placeholder="E-mail" required>
+				                <label for="inputemail"></label>
+				            </div>          
+				            <div class="form-label-group">
+				            	Senha
+				                <input type="password" id="inputpassword" class="form-control" placeholder="Senha" required>
+				                <label for="inputpassword"></label>
+				            </div>
+				            <button class="btn btn-lg btn-primary btn-block text-uppercase" onclick="logar()">Logar</button>      
+				            <button class="btn btn-lg btn-success btn-block text-uppercase" onclick="cadastrar()">Cadastre-se</button> 
+				            <hr class="my-4">
+				            <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+				            <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="text/javascript" src="fjs/bootstrap.min.js"></script>
+<script src="text/javascript" src="fjs/jquery-3.4.1.min.js"></script>
+</body>
+</html>

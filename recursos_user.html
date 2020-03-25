@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="description" content="Pagina de Login">
+    <meta name="keywords" content="HTML,CSS,XHTML,JavaScript">
+    <meta name="author" content="Heitor">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="fcss/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fcss/recursos_userstyle.css">
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <h1 class="my-4">FACILIDATA
+            <!--<small>
+            <a href="#">Deslogar</a>
+          </small>-->
+            <button class="btn btn-sm btn-primary text-uppercase" onclick="Deslogar()">Deslogar</button>
+        </h1>
+
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="fimage/checklist.jpg"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#" onclick="dashboard()">Lista de Exames</a>
+                        </h4>
+                        <p class="card-text">Área de armazenamento de exames realizados para controle ou de uso em futuras consultas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="fimage/fila.jpg"
+                            alt=""></a>
+                    <!--http://placehold.it/700x400-->
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#" onclick="fila()">Analise de Fila</a>
+                        </h4>
+                        <p class="card-text">Função de analise para disponibilidade de atendimento em hospitais.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="fimage/lista.jpg"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#" onclick="BPM()">Minhas Consultas</a>
+                        </h4>
+                        <p class="card-text">Local para gestão de consultas futuras ou ja realizadas pelo paciente</p>
+                    </div>
+                </div>
+            </div>
+            <!----<div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://cdn.pixabay.com/photo/2017/05/25/15/08/jogging-2343558_960_720.jpg" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#" onclick="EX()">Lista de Exercicios</a>
+                        </h4>
+                        <p class="card-text">Lista de Exercicios realizados com funcionalidade para adição e edição de
+                            registros, para poder monitorar a quantidade de Kcal gastou pela duração do exercicio
+                            realizado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://cdn.pixabay.com/photo/2019/06/06/12/53/strawberries-4255928_960_720.jpg"
+                            alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#" onclick="Alimento()">Lista de Alimentos</a>
+                        </h4>
+                        <p class="card-text">Lista de Alimentos cosumidos com funcionalidade para adição e edição de
+                            registros, para poder monitorar a quantidade de Kcal consumida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="card h-100">
+                    <a href="#"><img class="card-img-top"
+                            src="https://cdn.pixabay.com/photo/2015/06/28/09/36/email-824310_960_720.jpg" alt=""></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#" onclick="">Dados Cadastrais</a>
+                        </h4>
+                        <p class="card-text">Área onde podera editar seus dados cadastrais.</p>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+        <!-- /.row -->
+
+        <!-- Pagination -->
+        <!--<ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+          </li>
+        </ul> -->
+
+    </div>
+    <!-- /.container -->
+
+
+
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="text/javascript" src="fjs/bootstrap.min.js"></script>
+    <script src="text/javascript" src="fjs/jquery-3.4.1.min.js"></script>
+</body>
+
+</html>
